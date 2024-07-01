@@ -1,0 +1,11 @@
+{
+  "name": "test-of-sound-from-docker-container-on-wsl2",
+  "dockerComposeFile": [
+    "../compose.yaml",
+    "../compose.wsl2.yaml",
+    "compose.yaml"
+  ],
+  "overrideCommand": true,
+  "service": "app",
+  "workspaceFolder": "/home/user/workspace"
+}

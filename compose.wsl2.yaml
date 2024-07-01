@@ -1,0 +1,6 @@
+services:
+  app:
+    volumes:
+      - /mnt/wslg/:/mnt/wslg/
+    environment:
+      - PULSE_SERVER=${PULSE_SERVER}

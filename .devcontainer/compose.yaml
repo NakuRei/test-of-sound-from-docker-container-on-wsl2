@@ -1,0 +1,7 @@
+services:
+  app:
+    build:
+      args:
+        - USERNAME=user
+    volumes:
+      - .:/home/user/workspace

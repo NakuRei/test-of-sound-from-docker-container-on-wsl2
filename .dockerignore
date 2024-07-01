@@ -1,0 +1,7 @@
+.git/
+.gitignore
+.devcontainer/
+compose.yaml
+compose.wsl2.yaml
+Dockerfile
+README.md
